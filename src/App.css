@@ -1,0 +1,165 @@
+/* @font-face {
+  font-family: 'Helvetica Neue';
+  src: url('/fonts/helvetica-neue/HelveticaNeue-Regular.woff2') format('woff2'),
+       url('/fonts/helvetica-neue/HelveticaNeue-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+} */
+
+
+
+.app {
+  
+  background-color: #070734;
+  width: 1440px;
+  height: 1078px;
+  gap: 10px;
+  /* padding-top: 221px;
+  padding-right: 181px;
+  padding-bottom: 221px;
+  padding-left: 181px; */
+  display: flex;
+  justify-content: center;
+}
+
+.app-detail {
+  width: 1078px;
+  height: 582px;
+  margin-top: 221px;
+  margin-bottom: 221px;
+  margin-left: 181px;
+  margin-right: 181px;
+  font-family: Helvetica;
+
+}
+
+.detail-intro {
+  width: 196;
+  height: 58;
+  gap: 10px;
+  padding: 10px;
+  color: #FFFFFF;
+}
+
+.details {
+  width: 1078;
+  height: 524;
+  gap: 10px;
+  padding: 10px;
+
+}
+.detail-one {
+  color: #47B1F6;
+}
+
+.detail-two {
+  color: #022C61;
+}
+
+.detail-three {
+  color: #879BB4;
+}
+
+.appTwo {
+  width: 1440px;
+  height: 1024px;
+  gap: 10px;
+  padding-top: 82px;
+  padding-right: 64px;
+  padding-bottom: 82px;
+  padding-left: 64px;
+  background-color: #070734;
+}
+
+.wrapper {
+  display:flex;
+  width: 1312px;
+  height: 840px;
+  justify-content: space-between;
+}
+
+.appTwoImage{
+  width: 533px;
+  height: 840px;
+  border-top-left-radius: 80px;
+
+}
+
+.appTwoDetails {
+  /* width: 676px; */
+  /* height: 689px; */
+  /* gap: 19px; */
+  width: 676px;
+  height: 766px;
+  gap: 33px;
+ 
+
+}
+
+.appTwoTitle {
+  width: 568px;
+  height: 79px;
+  gap: 10px;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  color: #FFFFFF;
+}
+
+.box {
+  width: 676px;
+  /* height: 689px; */
+  gap: 19px;
+
+}
+
+.inside-box {
+  display:flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+  gap: 10px;
+  align-items: center;
+}
+
+
+p {
+ 
+  font-family: 'Kohinoor Gujarati';
+  font-weight: 400;
+  font-size: 20px;
+  color:#FFFFFF;
+  /* line-height: 32px; */
+  /* letter-spacing: 0%; */
+
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  width: 203px;
+
+  /* height: 44px; */
+  gap: 15px;
+  border-radius: 50px;
+  background-color: #E1F0FF;
+  color: #0057B8;
+  overflow: hidden; /* Ensures smooth transition */
+  transition: background-color 0.3s ease-in-out;
+}
+.btn-icon {
+ background-color: #0057B8;
+ border-radius: 100%;
+ margin-left: -6px;
+ transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.btn:hover {
+  background-color: #0057B8; /* Button fills with the icon color */
+  color: #FFFFFF;
+}
+
+.btn:hover .btn-icon {
+  transform: rotate(45deg);
+  background-color: transparent; /* Make icon transparent to blend with the button */
+}
