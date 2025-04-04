@@ -36,7 +36,7 @@ function App() {
                     <p style={{
                       color: '#47B1F6'
                     }}>Efficient Patient Management:</p>
-                    <p>Centralized digital records for quick access.</p>
+                    <p class='info'>Centralized digital records for quick access.</p>
                   </div>
                 </div>
                 <div class='inside-box'>
@@ -48,7 +48,7 @@ function App() {
                     <p style={{
                       color: '#47B1F6'
                     }}>Automated Appointments:</p>
-                    <p>Reduce no-shows with online booking and reminders</p>
+                    <p class='info'>Reduce no-shows with online booking and reminders</p>
                   </div>
                 </div>
                 <div class='inside-box'>
@@ -61,7 +61,7 @@ function App() {
                     <p style={{
                       color: '#47B1F6'
                     }}>Simplified Billing:</p>
-                    <p>Integrated payments and insurance claims management.</p>
+                    <p class='info'>Integrated payments and insurance claims management.</p>
                   </div>
                 </div>
                 <div class='inside-box'>
@@ -75,7 +75,7 @@ function App() {
                       color: '#47B1F6'
                     }}
                     >Real-Time Inventory:</p>
-                    <p>Track supplies to avoid stock-outs</p>
+                    <p class='info'>Track supplies to avoid stock-outs</p>
                   </div>
                 </div>
                 <div class='inside-box'>
@@ -87,7 +87,7 @@ function App() {
                     <p style={{
                       color: '#47B1F6'
                     }}> Data-Driven Insights:</p>
-                    <p>Make informed decisions with advanced reporting.</p>
+                    <p class='info'>Make informed decisions with advanced reporting.</p>
                   </div>
                 </div>
                 <div class='inside-box'>
@@ -99,7 +99,7 @@ function App() {
                     <p style={{
                       color: '#47B1F6'
                     }}> Secure & Compliant:</p>
-                    <p>Protect patient data with Kenyan Data Protection Act compliance.</p>
+                    <p class='info'>Protect patient data with Kenyan Data Protection Act compliance.</p>
                   </div>
                 </div>
               </div>
@@ -119,6 +119,85 @@ function App() {
               </div>
             </div>
           </div>
+        </div>
+      </div>
+      <div class='features'>
+        <div class='topic'>
+          <h1>Additional Features</h1>
+        </div>
+        <div class='feature-details'>
+        The Kazi Afya platform enhances healthcare management with a set of additional features focused on emergency response, resource optimization, patient engagement, and scalability. Its key features include:
+        </div>
+        <div class='feature-images'>
+          <div class='image-card'>
+            <div >
+              <img src='./ambulance.png'/>
+            
+            </div>
+            <div class='image-details'>
+              <div class='image-topic'>
+                <p>Ambulance Management</p>
+              </div>
+              <div class='image-content'>
+                <p>Offers real-time tracking of ambulance locations for efficient dispatch, coordinating emergency services to ensure timely and effective patient care.</p>
+              </div>
+            </div>
+          </div>
+          <div class='image-card'>
+            <div >
+              <img src='./ward.png'/>
+            
+            </div>
+            <div class='image-details'>
+              <div class='image-topic'>
+                <p>Ward Allocation</p>
+              </div>
+              <div class='image-content'>
+                <p>Manages bed availability and patient assignments efficiently, optimizing resource utilization across the hospital to improve operational flow.</p>
+              </div>
+            </div>
+          </div>
+          <div class='image-card'>
+            <div >
+              <img src='./patient.png'/>
+            
+            </div>
+            <div class='image-details'>
+              <div class='image-topic'>
+                <p>Patient Feedback</p>
+              </div>
+              <div class='image-content'>
+                <p>Collects valuable insights from patients to enhance service quality, fostering better engagement and communication for continuous improvement.</p>
+              </div>
+            </div>
+          </div>
+          <div class='image-card'>
+            <div >
+              <img src='./reception.png'/>
+            
+            </div>
+            <div class='image-details'>
+              <div class='image-topic'>
+                <p>Multi-Branch Support</p>
+              </div>
+              <div class='image-content'>
+                <p>Designed to manage operations across multiple healthcare facilities, ensuring consistent service delivery and seamless resource sharing.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class='feature-btn'>
+          <button class='btn'>
+            <div class='btn-icon'>
+            <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="XXXXXXXXXXXXXXXXXXXXXXXXXX">
+              <path d="M9.34313 11.323L17.2627 11.323L8.63603 19.9497L10.0502 21.364L18.6769 12.7373L18.6769 20.6569H20.6568V9.34315H9.34313L9.34313 11.323Z" fill="white" />
+            </svg>
+
+          </div>
+          <div>
+            Get Started Today
+          </div>
+          </button>
         </div>
       </div>
     </section>

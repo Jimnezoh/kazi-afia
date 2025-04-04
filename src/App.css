@@ -1,18 +1,10 @@
-/* @font-face {
-  font-family: 'Helvetica Neue';
-  src: url('/fonts/helvetica-neue/HelveticaNeue-Regular.woff2') format('woff2'),
-       url('/fonts/helvetica-neue/HelveticaNeue-Regular.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-} */
-
 
 
 .app {
   
   background-color: #070734;
-  width: 1440px;
-  height: 1078px;
+  /* width: 1440px; */
+  /* height: 1078px; */
   gap: 10px;
   /* padding-top: 221px;
   padding-right: 181px;
@@ -61,8 +53,8 @@
 }
 
 .appTwo {
-  width: 1440px;
-  height: 1024px;
+  /* width: 1440px; */
+  /* height: 1024px; */
   gap: 10px;
   padding-top: 82px;
   padding-right: 64px;
@@ -122,7 +114,7 @@
 }
 
 
-p {
+.info {
  
   font-family: 'Kohinoor Gujarati';
   font-weight: 400;
@@ -162,4 +154,74 @@ p {
 .btn:hover .btn-icon {
   transform: rotate(45deg);
   background-color: transparent; /* Make icon transparent to blend with the button */
+}
+
+
+/* -------------------Features Page----------------- */
+
+.features {
+  /* width: 1440px; */
+  /* height: 1051px; */
+  top: -7780px;
+  left: 14888px;
+  gap: 66px;
+  padding-top: 117px;
+  padding-right: 45px;
+  padding-bottom: 117px;
+  padding-left: 45px;
+  background-color: #ffffff;
+}
+
+.topic {
+  /* width: 593px; */
+  height: 77px;
+  gap: 70px;
+  color: #0057B8;
+  font-family: 'Helvetica Neue';
+  font-weight: 700;
+  letter-spacing: 0%;
+  display: flex;
+  justify-content: center;
+
+
+}
+
+.feature-details {
+  width: 965px;
+  margin-left: 120px;
+  height: 64px;
+  gap: 10px;
+  color: #070734;
+  font-family: 'Figtree';
+  font-weight: 500;
+  letter-spacing: 0%;
+  display: flex;
+  
+
+}
+.feature-images {
+  display: flex;
+  justify-content: center;
+}
+.image-card {
+  width: 324px;
+  height: 434px;
+  gap: 15px;
+  border-radius: 20px;
+  padding: 15px;
+
+}
+.image-topic {
+  font-family: 'Figtree';
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 0%;
+  color: #0057B8;
+}
+.image-content {
+  color: #070734;
+}
+.feature-btn {
+  display: flex;
+  justify-content:center;
 }
